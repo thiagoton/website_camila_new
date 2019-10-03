@@ -49,5 +49,32 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "helium/variables.scss",
+        "helium/mixins.scss",
+        "helium/typography.scss",
+        "helium/sections.scss",
+        "helium/buttons.scss",
+        "helium/navigations.scss",
+        "helium/components.scss",
+        "helium/features.scss",
+        "helium/pricing.scss",
+        "helium/cards.scss",
+        "helium/blog.scss",
+        "helium/progress-bars.scss",
+        "helium/sliders.scss",
+        "helium/forms.scss",
+        "helium/labels-badges-alerts.scss",
+        "helium/portfolio.scss",
+        "helium/table.scss",
+        "helium/accordions.scss",
+        "helium/responsive.scss"
 ;
+
+// Custom styles
+.bg-gray {
+    background-color: $grey-color;
+}
+
+.bg-light-gray {
+    background-color: rgb(242, 243, 247);
+}
