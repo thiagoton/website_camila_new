@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Psicóloga Camila Cuer
+email: psicologa.camilacuer@gmail.com
+
+description: > # this means to ignore newlines until "baseurl:"
+  Atendimento psicológico pela abordagem da Terapia Cognitivo-Comportamental.
+  Atendimentos para adultos e adolescentes. Curitiba-PR
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://psicologacamilacuer.com.br" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+crp: 08/29045
+phone: (41) 99899-6694
+end_cons1_a: Ed. Santa Maria
+end_cons1_b: R. Treze de Maio, 336, sala 47
+end_cons1_c: Centro - Curitiba-PR
+
+end_cons2_a: R. Caetano Marchesini, 255
+end_cons2_b: Portão - Curitiba-PR
