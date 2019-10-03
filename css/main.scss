@@ -87,3 +87,21 @@ header.bg-primary {
     background-color: #2c5435 !important;
     background-image: url("/img/absurdity.png");
 }
+
+.delay-1s {
+    -animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+}
+
+.delay-2s {
+    -animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+}
+
+.delay-5s {
+    -animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+}
