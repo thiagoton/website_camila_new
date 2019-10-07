@@ -1,38 +1,71 @@
-<footer class="site-footer">
+<!-- Footer Section -->
+<footer class="footer dark-footer">
+  <!-- Container Starts -->
+  <div class="container">
+    <!-- Row Starts -->
+    <div class="row section">
+      <!-- Footer Widget Starts -->
+      <div class="footer-widget col-md-4 col-xs-12 wow fadeIn">
+        <h3 class="small-title">
+          Sobre
+        </h3>
+        <p>
+          {{ site.description }}
+        </p>
+        <div class="social-footer">
+          <a href="#"><i class="fa fa-facebook icon-round"></i></a>
+          <a href="#"><i class="fa fa-instagram icon-round"></i></a>
+        </div>
+      </div>
+      <!-- Footer Widget Ends -->
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <!-- Footer Widget Starts -->
+      <div class="footer-widget col-md-4 col-xs-12 wow fadeIn"
+        data-wow-delay=".2s">
+        <h3 class="small-title">
+          Links
+        </h3>
+        <ul class="menu">
+          <li><a href="#">Sobre a terapia</a></li>
+          <li><a href="#">Tratamentos</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </div>
+      <!-- Footer Widget Ends -->
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <!-- Footer Widget Starts -->
+      <div class="footer-widget col-md-4 col-xs-12 wow fadeIn"
+        data-wow-delay=".5s">
+        <h3 class="small-title">
+          GALLERY
+        </h3>
+        <div class="plain-flicker-gallery">
+          <a href="#"><img src="img/flicker/img1.jpg" alt=""></a>
+          <a href="#"><img src="img/flicker/img2.jpg" alt=""></a>
+          <a href="#"><img src="img/flicker/img3.jpg" alt=""></a>
+          <a href="#"><img src="img/flicker/img4.jpg" alt=""></a>
+          <a href="#"><img src="img/flicker/img5.jpg" alt=""></a>
+          <a href="#"><img src="img/flicker/img6.jpg" alt=""></a>
+        </div>
       </div>
+      <!-- Footer Widget Ends -->
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+    </div>
+    <!-- Row Ends -->
+  </div>
+  <!-- Container Ends -->
+
+  <!-- Copyright -->
+  <div id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="copyright-text">Todos os direitos reservados © 2019 </p>
+        </div>
       </div>
     </div>
-
   </div>
+  <!-- Copyright  End-->
 
 </footer>
+<!-- Footer Section End-->

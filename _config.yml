@@ -10,8 +10,7 @@ title: Psicóloga Camila Cuer
 email: psicologa.camilacuer@gmail.com
 
 description: > # this means to ignore newlines until "baseurl:"
-  Atendimento psicológico pela abordagem da Terapia Cognitivo-Comportamental.
-  Atendimentos para adultos e adolescentes. Curitiba-PR
+  Atendimento psicológico pela abordagem da Terapia Cognitivo-Comportamental para adolescentes e adultos em Curitiba-PR.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://psicologacamilacuer.com.br" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -28,3 +27,5 @@ end_cons1_c: Centro - Curitiba-PR
 
 end_cons2_a: R. Caetano Marchesini, 255
 end_cons2_b: Portão - Curitiba-PR
+
+midAnimDuration: 1200

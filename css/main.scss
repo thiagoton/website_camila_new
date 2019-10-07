@@ -24,6 +24,8 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$light-gray:       rgb(236, 236, 236);
+
 // Width of the content area
 $content-width:    800px;
 
@@ -67,7 +69,8 @@ $on-laptop:        800px;
         "helium/portfolio.scss",
         "helium/table.scss",
         "helium/accordions.scss",
-        "helium/responsive.scss"
+        "helium/responsive.scss",
+        "aos/aos.scss"
 ;
 
 // Custom styles
@@ -76,7 +79,7 @@ $on-laptop:        800px;
 }
 
 .bg-light-gray {
-    background-color: rgb(242, 243, 247);
+    background-color: $light-gray;
     .navbar-nav .nav-link{
         color: $text-color;
     }
@@ -88,20 +91,18 @@ header.bg-primary {
     background-image: url("/img/absurdity.png");
 }
 
-.delay-1s {
-    -animation-delay: 1s;
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
+.social-footer a i{
+    border: 1px solid $dark-green;
 }
 
-.delay-2s {
-    -animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
+.social-footer{
+    .fa-instagram:hover{
+        background: #e4ade4;
+        color: #fff;
+        border-color: #e4ade4;
+      }
 }
 
-.delay-5s {
-    -animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-}
+footer {
+    background: #696969;
+  }
