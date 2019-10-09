@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Vida social",
+        "description": "Dificuldades em relacionamentos com familiares, amigos ou colegas de trabalho"
+    },
+    {
+        "name": "Sintoma psíquico",
+        "description": "Sofre com depressão, ansiedade, fobias ou algum outro sintoma psíquico"
+    },
+    {
+        "name": "Saúde",
+        "description": "Você ou algum familiar está passando por um tratamento de saúde e está procurando apoio emocional"
+    },
+    {
+        "name": "Personalidade",
+        "description": "Alguma característica de sua personalidade gera algum tipo de incômodo (ex: modo de expor as suas ideias, não conseguir dizer NÃO, ...)"
+    },
+    {
+        "name": "Relacionamentos amorosos",
+        "description": "Tem dificuldade em relacionamentos amorosos, ou está passando por um momento difícil de seu relacionamento"
+    },
+    {
+        "name": "Trabalho",
+        "description": "O trabalho não te traz satisfação, ou você não se sente realizado/valorizado. Sente que os outros estão satisfeitos, menos você"
+    },
+    {
+        "name": "Vida",
+        "description": "Uma grande mudança aconteceu (casamento, filhos, envelhecimento, luto, ...) e você está com dificuldades em lidar com isso"
+    },
+    {
+        "name": "Autovalorização",
+        "description": "Não vê valor em si mesmo, não se acha merecedor, acredita que tudo dá errado"
+    }
+]

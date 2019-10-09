@@ -1,0 +1,137 @@
+---
+layout: page
+---
+<div class="row">
+
+    <!-- Post Content Column -->
+    <div class="col-lg-8">
+        <div class="content" data-aos="fade" data-aos-once="true"
+            data-aos-duration="{{site.midAnimDuration}}">
+            <!-- Title -->
+            <h1 class="mt-4">Por que decidir fazer terapia?</h1>
+            <!-- Preview Image -->
+
+            <div class="mb-40"></div>
+            <!-- Post Content -->
+            <p>
+                Se você está aqui é porque talvez algo na sua vida o está
+                incomodando: pode ser alguma situação relacionada ao trabalho,
+                alguma dificuldade de relacionamento com a família, uma
+                dificuldade em aceitar alguma situação, por exemplo.
+            </p>
+            <p>
+                Algumas pessoas, seja por desconhecimento ou preconceito,
+                relutam em ir ao psicólogo. Acreditam que procurar ajuda é sinal
+                de fraqueza.
+            </p>
+            <p>
+                Fazer terapia é entender que todos temos problemas e que
+                <strong>JUNTOS</strong> conseguimos resolver de forma mais
+                fácil.
+            </p>
+            <p>
+                Sabendo que juntos somos mais fortes, me ofereço para <strong>junto</strong>
+                com você procurar entender qual o seu problema, que tipo de
+                sofrimento ele lhe causa e como resolvê-lo.
+            </p>
+            <p>
+                Você está disposto a encarar esse desafio? Eu estou, e quero que
+                você resgate a sua qualidade de vida, pois você merece.
+            </p>
+            <p>
+                Confira mais abaixo em quais situações a terapia pode te ajudar.
+            </p>
+
+            <hr>
+        </div>
+        <div class="mb-60"></div>
+        <div class="content" data-aos="fade" data-aos-once="true"
+            data-aos-duration="{{site.midAnimDuration}}">
+            <!-- Title -->
+            <h1 class="mt-4">Motivos para procurar a psicoterapia</h1>
+
+            <!-- Preview Image -->
+            <div class="mb-60"></div>
+
+            <div class="row justify-content-center">
+                <!-- Post Content -->
+                {% for item in site.data.treatments %}
+                {% assign skipindex = forloop.index0 | divided_by: 3 %}
+                {% assign loopindex = forloop.index0 | plus: {{skipindex}} |
+                modulo: 3 | plus: 1 %}
+                <div class="col-md-4 text-center" sId="{{skipindex}}">
+                    <div class="services color-{{loopindex}}" data-aos="fade"
+                        data-aos-once="true"
+                        data-aos-duration="{{site.midAnimDuration}}">
+                        <div class="icon"></div>
+                        <div class="desc">
+                            <h4>{{item.name}}</h4>
+                            <p>{{item.description}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <hr>
+        </div>
+        <div class="mb-60"></div>
+        <div class="content" data-aos="fade" data-aos-once="true"
+            data-aos-duration="{{site.midAnimDuration}}">
+            <!-- Title -->
+            <h1 class="mt-4">Você não está sozinho</h1>
+            <!-- Preview Image -->
+            <img class="img-fluid center" src="img/hands.jpg" alt=""
+                style="height: 250px;">
+
+            <!-- Preview Image -->
+            <div class="mb-40"></div>
+
+            <p>Você não está sozinho. Eu estou junto nessa com você. Você não
+                será julgado. <strong>Quero ajudar</strong>. A terapia é para
+                ser libertadora e não causar vergonha ou medo.</p>
+            <p>Você terá toda a minha disposição para te ajudar e terá sua
+                <strong>privacidade</strong> e <strong>individualidade</strong>
+                respeitadas.</p>
+            <p>Por isso, o atendimento é feito de forma <strong>individual</strong>,
+                somente eu e você. Se você é adolescente ou adulto que busca
+                melhora na sua qualidade de vida e está determinado em conseguir
+                isso, você está mais do que apto a iniciar a terapia. <strong>Vamos
+                    juntos?</strong></p>
+
+            <hr>
+        </div>
+        <div class="mb-60"></div>
+    </div>
+
+    <!-- Sidebar Widgets Column -->
+    <div class="col-md-4">
+        <div class="content sticky" data-aos="fade" data-aos-once="true"
+            data-aos-duration="{{site.midAnimDuration}}">
+            <!-- Categories Widget -->
+            <div class="card my-4">
+                <h5 class="card-header">Processo terapêutico</h5>
+                <div class="card-body">
+                    Entenda como é o processo terapêutico e saiba mais sobre a
+                    abordagem utilizada.
+                </div>
+                <div class="card-footer">
+                    <a href="sobre.html" class="btn btn-common">Saiba mais</a>
+                </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+                <h5 class="card-header">Agende sua consulta</h5>
+                <div class="card-body">
+                    Entre em contato para agendar a sua consulta e começar o seu
+                    processo de mudança.
+                </div>
+                <div class="card-footer">
+                    <a href="contato.html" class="btn btn-common">Contato</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
