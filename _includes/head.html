@@ -10,16 +10,36 @@
     strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description
     }}{% endif %}">
 
+  <!-- Social stuff -->
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:image" content="{{site.url}}/images/logo_only.jpg"/>
+  <meta property="og:url" content="{{site.url}}"/>
+  <meta property="og:description" content="{{site.excerpt}}"/>
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:image" content="{{site.url}}/images/logo_only.jpg" />
+  <meta name="twitter:url" content="{{site.url}}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="{{site.excerpt}}"/>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+
   <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{" /css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{" /css/aos.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{" /css/icomoon.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/aos.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/icomoon.css" | prepend: site.baseurl }}">
   <!-- <link rel="stylesheet" href="{{" /css/animate.css" | prepend: site.baseurl }}"> -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend:
     site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
-    href="{{" /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    href="{{"/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>

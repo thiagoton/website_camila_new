@@ -8,12 +8,12 @@
 # Site settings
 title: Psicóloga Camila Cuer
 email: psicologa.camilacuer@gmail.com
-
+excerpt: "Psicóloga Clínica em Curitiba-PR. Contato: (41) 99899-6694 | Terapia Cognitivo-Comportamental | Terapia Individual | Adolescentes e Adultos"
 description: > # this means to ignore newlines until "baseurl:"
   Atendimento psicológico pela abordagem da Terapia Cognitivo-Comportamental para adolescentes e adultos em Curitiba-PR.
   Atendimento pautado pela ética e voltado para o paciente.
 baseurl: "" # the subpath of your site, e.g. /blog
-
+url: "https://psicologacamilacuer.com.br"
 instagram_profile: psicologia.camilacuer
 facebook_profile: psicologa.camilacuer
 
