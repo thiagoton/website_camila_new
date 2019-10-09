@@ -1,34 +1,42 @@
 [
     {
         "name": "Vida social",
+        "icon": "icon-users",
         "description": "Dificuldades em relacionamentos com familiares, amigos ou colegas de trabalho"
     },
     {
         "name": "Sintoma psíquico",
+        "icon": "icon-sad",
         "description": "Sofre com depressão, ansiedade, fobias ou algum outro sintoma psíquico"
     },
     {
         "name": "Saúde",
+        "icon": "icon-aid-kit",
         "description": "Você ou algum familiar está passando por um tratamento de saúde e está procurando apoio emocional"
     },
     {
         "name": "Personalidade",
+        "icon": "icon-frustrated",
         "description": "Alguma característica de sua personalidade gera algum tipo de incômodo (ex: modo de expor as suas ideias, não conseguir dizer NÃO, ...)"
     },
     {
         "name": "Relacionamentos amorosos",
+        "icon": "icon-heart-broken",
         "description": "Tem dificuldade em relacionamentos amorosos, ou está passando por um momento difícil de seu relacionamento"
     },
     {
         "name": "Trabalho",
+        "icon": "icon-briefcase",
         "description": "O trabalho não te traz satisfação, ou você não se sente realizado/valorizado. Sente que os outros estão satisfeitos, menos você"
     },
     {
         "name": "Vida",
+        "icon": "icon-accessibility",
         "description": "Uma grande mudança aconteceu (casamento, filhos, envelhecimento, luto, ...) e você está com dificuldades em lidar com isso"
     },
     {
         "name": "Autovalorização",
+        "icon": "icon-eye-minus",
         "description": "Não vê valor em si mesmo, não se acha merecedor, acredita que tudo dá errado"
     }
 ]
