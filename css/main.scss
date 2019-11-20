@@ -248,3 +248,7 @@ div.sticky {
 .float-icon-link{
     margin-top:15px;
 }
+
+.nav-item.active > .nav-link {
+    text-decoration-line: underline;
+}
