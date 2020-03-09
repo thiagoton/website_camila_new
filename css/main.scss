@@ -9,7 +9,7 @@ $light-green: #7eb67e;
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   100%;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -32,7 +32,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$mobile-device-width: 992px;
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -50,11 +50,8 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
         "variables.scss",
         "helium/mixins.scss",
-        "helium/typography.scss",
         "helium/sections.scss",
         "helium/buttons.scss",
         "helium/navigations.scss",
@@ -69,7 +66,8 @@ $on-laptop:        800px;
         "helium/portfolio.scss",
         "helium/table.scss",
         "helium/accordions.scss",
-        "helium/responsive.scss"
+        "helium/responsive.scss",
+        "typography_fix.scss"
 ;
 
 // Custom styles
@@ -250,4 +248,72 @@ div.sticky {
 
 .nav-item.active > .nav-link {
     text-decoration-line: underline;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .splash-logo {
+        height: 100vh;
+        padding-top: 0em;
+        padding-bottom: 1em;
+    }
+
+    #navbar {
+        // top: -100px;
+        // background-color: transparent;
+    }
+
+    .show-md-up {
+        visibility: hidden;
+    }
+
+    .transparent-md-down {
+        background-color: transparent;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .content-padding-top {
+        padding-top: 3em;
+    }
+
+    a.nav-link {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .splash-logo {
+        padding-top: 6em;
+        padding-bottom: 4em;
+    }
+
+    .show-md-up {
+        visibility: visible;
+    }
+
+    .transparent-md-down {
+        // background-color: initial;
+    }
+
+    .content-padding-top {
+        padding-top: 6em;
+    }
+
+    a.nav-link {
+        font-size: 20px;
+    }
+}
+
+#navbar {
+    transition: top 0.5s, background-color 0.5s;
+}
+
+.nv-section-selected {
+    font-weight: bold !important;
 }

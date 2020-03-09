@@ -1,12 +1,13 @@
 ---
 layout: default
 navbar_id: nb_home
+navbarSection: home
 ---
 <div class="row">
-  <div class="col-md-8 mb-5" data-aos="fade" data-aos-once="true"
-    data-aos-duration="{{ site.midAnimDuration }}">
+  <div class="col-md-8 mb-5" data-aos="fade" data-aos-once="true" data-aos-duration="{{ site.midAnimDuration }}">
     <h2>Seja bem-vindo</h2>
     <hr>
+    <div class="mb-40"></div>
     <p>Sou a psicóloga Camila e quero ajudar você. São vários os motivos pelos
       quais uma pessoa procura a psicoterapia, mas todos tem algo em comum:
       <strong>melhorar a qualidade de vida</strong>.</p>
@@ -19,14 +20,14 @@ navbar_id: nb_home
     <p>Esse é um espaço para você conhecer um pouco sobre o meu trabalho. Se
       ficar alguma dúvida, entre em contato.</p>
     <p><i>Camila de Oliveira Cuer Ton<br>Psicóloga Clínica - CRP: {{ site.crp }}</i></p>
-    <a class="btn btn-common btn-lg" href="contato.html">Contato &raquo;</a>
+    <a class="btn btn-common" href="contato.html">Contato &raquo;</a>
   </div>
-  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true"
-    data-aos-duration="{{ site.midAnimDuration }}">
+  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true" data-aos-duration="{{ site.midAnimDuration }}">
     <h2>Contato</h2>
     <hr>
+    <div class="mb-40"></div>
     <address>
-      <abbr title="Ligue já">Telefone:</abbr>
+      <abbr title="Ligue já ou entre em contato pelo WhatsApp">Telefone:</abbr>
       <a href="tel:{{ site.raw_phone }}">{{ site.phone }}</a>
       <br>
     </address>
@@ -37,6 +38,7 @@ navbar_id: nb_home
       <br>{{ site.end_cons1_c }}
       <br>
     </address>
+    <div class="mb-20"></div>
     <address>
       <strong>Consultório Portão</strong>
       <br>{{ site.end_cons2_a }}
@@ -48,8 +50,7 @@ navbar_id: nb_home
 <!-- /.row -->
 
 <div class="row">
-  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true"
-    data-aos-duration="{{ site.midAnimDuration }}">
+  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true" data-aos-duration="{{ site.midAnimDuration }}">
     <div class="card h-100">
       <img class="card-img-top" src="img/treatments-480x320.jpg" alt="">
       <div class="card-body">
@@ -63,8 +64,7 @@ navbar_id: nb_home
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true"
-    data-aos-duration="{{ site.midAnimDuration }}">
+  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true" data-aos-duration="{{ site.midAnimDuration }}">
     <div class="card h-100">
       <img class="card-img-top" src="img/therapy-480x320.jpg" alt="">
       <div class="card-body">
@@ -77,8 +77,7 @@ navbar_id: nb_home
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true"
-    data-aos-duration="{{ site.midAnimDuration }}">
+  <div class="col-md-4 mb-5" data-aos="fade" data-aos-once="true" data-aos-duration="{{ site.midAnimDuration }}">
     <div class="card h-100">
       <img class="card-img-top" src="img/contact-480x320.jpg" alt="">
       <div class="card-body">
@@ -93,4 +92,5 @@ navbar_id: nb_home
     </div>
   </div>
 </div>
+<script>updateNavbarSection('home');</script>
 <!-- /.row -->

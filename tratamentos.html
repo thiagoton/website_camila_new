@@ -1,6 +1,7 @@
 ---
 layout: page
 navbar_id: nb_treatments
+navbarSection: treatment
 ---
 <div class="row">
 
@@ -45,7 +46,7 @@ navbar_id: nb_treatments
 
             <hr>
         </div>
-        <div class="mb-60"></div>
+        <div class="mb-40"></div>
         <div class="content" data-aos="fade" data-aos-once="true"
             data-aos-duration="{{site.midAnimDuration}}">
             <!-- Title -->
@@ -58,8 +59,7 @@ navbar_id: nb_treatments
                 <!-- Post Content -->
                 {% for item in site.data.treatments %}
                 {% assign skipindex = forloop.index0 | divided_by: 3 %}
-                {% assign loopindex = forloop.index0 | plus: {{skipindex}} |
-                modulo: 3 | plus: 1 %}
+                {% assign loopindex = forloop.index0 | plus: {{skipindex}} | modulo: 3 | plus: 1 %}
                 <div class="col-md-4 text-center" sId="{{skipindex}}">
                     <div class="services color-{{loopindex}}" data-aos="fade"
                         data-aos-once="true"
@@ -75,7 +75,7 @@ navbar_id: nb_treatments
             </div>
             <hr>
         </div>
-        <div class="mb-60"></div>
+        <div class="mb-40"></div>
         <div class="content" data-aos="fade" data-aos-once="true"
             data-aos-duration="{{site.midAnimDuration}}">
             <!-- Title -->
@@ -100,7 +100,6 @@ navbar_id: nb_treatments
                 isso, você está mais do que apto a iniciar a terapia. <strong>Vamos
                     juntos?</strong></p>
 
-            <hr>
         </div>
         <div class="mb-40"></div>
     </div>
@@ -135,4 +134,5 @@ navbar_id: nb_treatments
         </div>
     </div>
 </div>
+<script>updateNavbarSection('treatments');</script>
 <!-- /.row -->
