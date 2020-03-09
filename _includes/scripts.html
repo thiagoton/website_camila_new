@@ -8,12 +8,13 @@
 <script
     src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="js/aos.js"></script>
+<script src="js/my_scripts.js"></script>
 <script>
-AOS.init();
+AOS.init({offset: 100});
 </script>
 
-<script src="js/main.js">
-</script>
+<script src="js/main.js"></script>
 <script>
     updateNavbarActive("{{ page.navbar_id }}");
 </script>
+<script>updateNavbarSection("{{page.navbarSection}}");</script>
