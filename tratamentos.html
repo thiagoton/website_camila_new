@@ -59,8 +59,7 @@ navbarSection: treatment
                 <!-- Post Content -->
                 {% for item in site.data.treatments %}
                 {% assign skipindex = forloop.index0 | divided_by: 3 %}
-                {% assign loopindex = forloop.index0 | plus: {{skipindex}} |
-                modulo: 3 | plus: 1 %}
+                {% assign loopindex = forloop.index0 | plus: {{skipindex}} | modulo: 3 | plus: 1 %}
                 <div class="col-md-4 text-center" sId="{{skipindex}}">
                     <div class="services color-{{loopindex}}" data-aos="fade"
                         data-aos-once="true"
