@@ -20,6 +20,33 @@
     gtag('config', 'UA-141073926-1');
   </script>
 
+  <!-- Global site tag (gtag.js) - Google Ads: 738740735 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-738740735"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-738740735');
+  </script>
+
+  <!-- Event snippet for Contato Whatsapp conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-738740735/Q1MXCLP30MkBEP-ToeAC',
+          'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
   <!-- Social stuff -->
   <meta property="og:title" content="{{ site.title }}"/>
   <meta property="og:image" content="{{site.url}}/images/logo_only.jpg"/>
