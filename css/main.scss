@@ -253,3 +253,67 @@ div.sticky {
 .mb-20 {
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .splash-logo {
+        height: 100vh;
+        padding-top: 0em;
+        padding-bottom: 1em;
+    }
+
+    #navbar {
+        // top: -100px;
+        // background-color: transparent;
+    }
+
+    .show-md-up {
+        visibility: hidden;
+    }
+
+    .transparent-md-down {
+        background-color: transparent;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .content-padding-top {
+        padding-top: 3em;
+    }
+
+    a.nav-link {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .splash-logo {
+        padding-top: 6em;
+        padding-bottom: 4em;
+    }
+
+    .show-md-up {
+        visibility: visible;
+    }
+
+    .transparent-md-down {
+        // background-color: initial;
+    }
+
+    .content-padding-top {
+        padding-top: 6em;
+    }
+
+    a.nav-link {
+        font-size: 20px;
+    }
+}
+
+#navbar {
+    transition: top 0.5s, background-color 0.5s;
+}
+
+.nv-section-selected {
+    font-weight: bold !important;
+}
