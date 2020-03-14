@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Psicóloga Camila Cuer
+title: Psicóloga Clínica Camila Cuer | Terapia Cognitivo Comportamental | Curitiba-PR
 email: psicologa.camilacuer@gmail.com
 excerpt: "Psicóloga Clínica em Curitiba-PR. Contato: (41) 99899-6694 | Terapia Cognitivo-Comportamental | Terapia Individual | Adolescentes e Adultos"
 description: > # this means to ignore newlines until "baseurl:"
-  Atendimento psicológico pela abordagem da Terapia Cognitivo-Comportamental para adolescentes e adultos em Curitiba-PR.
-  Atendimento pautado pela ética e voltado para o paciente.
+  Atendimento psicológico pela abordagem da Terapia Cognitivo-Comportamental para adolescentes e adultos em Curitiba-PR. Consultório no Centro e no Portão.
+  Atendimento pautado pela ética e voltado para as necessidades e particularidades do paciente.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://psicologacamilacuer.com.br"
 instagram_profile: psicologia.camilacuer
